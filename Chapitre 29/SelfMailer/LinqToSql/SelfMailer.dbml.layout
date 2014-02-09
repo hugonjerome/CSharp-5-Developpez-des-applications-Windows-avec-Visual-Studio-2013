@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SelfMailer">
+  <DataContextMoniker Name="/SelfMailerDataContext" />
+  <nestedChildShapes>
+    <classShape Id="221f8de1-e2d7-4afe-8e54-7bdd6aa62da1" absoluteBounds="2.375, 2.875, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/SelfMailerDataContext/MailServers" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ae2d84bc-626d-4ff3-a584-3efb54894281" absoluteBounds="2.39, 3.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="71e2e44d-869a-42e4-88ce-3e8576084354" absoluteBounds="3.75, 1.125, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/SelfMailerDataContext/MailServerSender" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7011c9f5-c06b-4530-a973-57892ee74331" absoluteBounds="3.765, 1.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c5d553a0-0552-446d-a710-8fa828ef94ec" absoluteBounds="1, 1, 2, 1.3862939453124998">
+      <DataClassMoniker Name="/SelfMailerDataContext/Senders" />
+      <nestedChildShapes>
+        <elementListCompartment Id="66314c7f-edfc-49c4-ad41-679e98954823" absoluteBounds="1.0150000000000001, 1.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.0625 : 2.875); (4.0625 : 2.31899251302083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SelfMailerDataContext/MailServers/MailServers_MailServerSender" />
+      <nodes>
+        <classShapeMoniker Id="221f8de1-e2d7-4afe-8e54-7bdd6aa62da1" />
+        <classShapeMoniker Id="71e2e44d-869a-42e4-88ce-3e8576084354" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3 : 1.72199625651042); (3.75 : 1.72199625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SelfMailerDataContext/Senders/Senders_MailServerSender" />
+      <nodes>
+        <classShapeMoniker Id="c5d553a0-0552-446d-a710-8fa828ef94ec" />
+        <classShapeMoniker Id="71e2e44d-869a-42e4-88ce-3e8576084354" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

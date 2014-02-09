@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20617.1 PREVIEW
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfMailer", "SelfMailer\SelfMailer.csproj", "{0D2804EC-CBE7-4538-A6FA-A9B0D09AB40E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorOverloading", "OperatorOverloading\OperatorOverloading.csproj", "{BE98E678-1325-4247-9197-C5A557790605}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroductionW8", "IntroductionW8\IntroductionW8.csproj", "{F60C7393-16E0-44CF-B2DC-2E2275A2B34F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D2804EC-CBE7-4538-A6FA-A9B0D09AB40E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2804EC-CBE7-4538-A6FA-A9B0D09AB40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D2804EC-CBE7-4538-A6FA-A9B0D09AB40E}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{0D2804EC-CBE7-4538-A6FA-A9B0D09AB40E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0D2804EC-CBE7-4538-A6FA-A9B0D09AB40E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0D2804EC-CBE7-4538-A6FA-A9B0D09AB40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D2804EC-CBE7-4538-A6FA-A9B0D09AB40E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D2804EC-CBE7-4538-A6FA-A9B0D09AB40E}.Release|ARM.ActiveCfg = Release|Any CPU
+		{0D2804EC-CBE7-4538-A6FA-A9B0D09AB40E}.Release|x64.ActiveCfg = Release|Any CPU
+		{0D2804EC-CBE7-4538-A6FA-A9B0D09AB40E}.Release|x86.ActiveCfg = Release|Any CPU
+		{BE98E678-1325-4247-9197-C5A557790605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE98E678-1325-4247-9197-C5A557790605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE98E678-1325-4247-9197-C5A557790605}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{BE98E678-1325-4247-9197-C5A557790605}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BE98E678-1325-4247-9197-C5A557790605}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BE98E678-1325-4247-9197-C5A557790605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE98E678-1325-4247-9197-C5A557790605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE98E678-1325-4247-9197-C5A557790605}.Release|ARM.ActiveCfg = Release|Any CPU
+		{BE98E678-1325-4247-9197-C5A557790605}.Release|x64.ActiveCfg = Release|Any CPU
+		{BE98E678-1325-4247-9197-C5A557790605}.Release|x86.ActiveCfg = Release|Any CPU
+		{F60C7393-16E0-44CF-B2DC-2E2275A2B34F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60C7393-16E0-44CF-B2DC-2E2275A2B34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60C7393-16E0-44CF-B2DC-2E2275A2B34F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F60C7393-16E0-44CF-B2DC-2E2275A2B34F}.Debug|ARM.ActiveCfg = Debug|ARM
+		{F60C7393-16E0-44CF-B2DC-2E2275A2B34F}.Debug|ARM.Build.0 = Debug|ARM
+		{F60C7393-16E0-44CF-B2DC-2E2275A2B34F}.Debug|ARM.Deploy.0 = Debug|ARM
+		{F60C7393-16E0-44CF-B2DC-2E2275A2B34F}.Debug|x64.ActiveCfg = Debug|x64
+		{F60C7393-16E0-44CF-B2DC-2E2275A2B34F}.Debug|x64.Build.0 = Debug|x64
+		{F60C7393-16E0-44CF-B2DC-2E2275A2B34F}.Debug|x64.Deploy.0 = Debug|x64
+		{F60C7393-16E0-44CF-B2DC-2E2275A2B34F}.Debug|x86.ActiveCfg = Debug|x86
+		{F60C7393-16E0-44CF-B2DC-2E2275A2B34F}.Debug|x86.Build.0 = Debug|x86
+		{F60C7393-16E0-44CF-B2DC-2E2275A2B34F}.Debug|x86.Deploy.0 = Debug|x86
+		{F60C7393-16E0-44CF-B2DC-2E2275A2B34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60C7393-16E0-44CF-B2DC-2E2275A2B34F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F60C7393-16E0-44CF-B2DC-2E2275A2B34F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F60C7393-16E0-44CF-B2DC-2E2275A2B34F}.Release|ARM.ActiveCfg = Release|ARM
+		{F60C7393-16E0-44CF-B2DC-2E2275A2B34F}.Release|ARM.Build.0 = Release|ARM
+		{F60C7393-16E0-44CF-B2DC-2E2275A2B34F}.Release|ARM.Deploy.0 = Release|ARM
+		{F60C7393-16E0-44CF-B2DC-2E2275A2B34F}.Release|x64.ActiveCfg = Release|x64
+		{F60C7393-16E0-44CF-B2DC-2E2275A2B34F}.Release|x64.Build.0 = Release|x64
+		{F60C7393-16E0-44CF-B2DC-2E2275A2B34F}.Release|x64.Deploy.0 = Release|x64
+		{F60C7393-16E0-44CF-B2DC-2E2275A2B34F}.Release|x86.ActiveCfg = Release|x86
+		{F60C7393-16E0-44CF-B2DC-2E2275A2B34F}.Release|x86.Build.0 = Release|x86
+		{F60C7393-16E0-44CF-B2DC-2E2275A2B34F}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
